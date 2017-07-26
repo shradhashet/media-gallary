@@ -42,30 +42,27 @@ variables, mixins, functions and many other techniques that allow you to make CS
 
 ### Structure and Files
 
-
-    + js
+ + js
 	   + images
 	   + libs
 	     + bootstrap
-         + jquery
-         + require
-         + backbone 
+             + jquery
+             + require
+             + backbone 
 	     + backbone.marionette
-         + handlebars
-            + hbs
-            + moment
-            + underscore
+             + handlebars
+             + hbs
+             + moment
+             + underscore
 	   + src
-	       + controllers
-           + models
-           + router
-           + templates
-           + views
-	   + application.js
-	   + main.js
-	+ css
-	+ less
-	+ index.html
-	+ package.json
-     
-        
+	      + controllers
+              + models
+              + router
+              + templates
+              + views
+	      + application.js
+	      + main.js
+	  + css
+	  + less
+	  + index.html
+	  + package.json
