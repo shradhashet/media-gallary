@@ -40,6 +40,17 @@ Used in dateFormatting.js  to format given date .
 Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow 
 variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themeable and extendable.
 
+### Bootstrp JS
+
++ Preprocessors
+Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, Less and Sass. Quickly get started with precompiled CSS or build on the source.
+
++ One framework, every device.
+Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.
+
++ Full of features
+With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.
+
 ### Structure and Files
 
  + js
