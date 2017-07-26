@@ -105,7 +105,10 @@ All templates where created in templates folder using handlebar.js logic and loa
 
 Template are imported in Views.
 
+## Features
 **Webiste is designed with responsive layout can be accessed with mobile,tablet,desktop.**
+**Has lazy load Collection which fetches data on scroll**
+**Has lazy load infinity scroll to improve the load performance**
 
 **hosted wbsite url**
 https://media-gallary-37131.netlify.com
