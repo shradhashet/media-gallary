@@ -20,10 +20,6 @@ Cross-origin resource sharing - is a mechanism that allows JavaScript on a web p
 
 CORS allows web applications on one domain to make cross domain AJAX requests to another domain. It's dead simple to enable, only requiring a single response header to be sent by the server. [http://www.html5rocks.com/en/tutorials/file/xhr2/#toc-cors]
 
-*Issues*
-If you found any bug or want some new feature - do not hesitate create a pull-request. [https://github.com/vitvad/Access-Control-Allow-Origin] 
-
-
 Above plugin is required to access https://rio.quintype.io/api/v1/stories?limit=20 API 
 
 As the API doesnot provide acces cross origin
