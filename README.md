@@ -78,6 +78,33 @@ If you run this Marionette JS Application without a Web Server ( Loading directl
 
 XMLHttpRequest cannot load file:///YOURPATH/marionette-skeleton-app/templates/header.tpl. Cross origin requests are only supported for HTTP.
 
-hosted wbsite url
+### Routing
+implements the routes defined in your application.
+Routes: home
+
+file: js/sec/router/appRouter.js
+
+### Usage:
+
+Load the index.html file, the home route must be executed and you will get a bootstrap application running
+route methode will instantiate MediaController controller.to load the futher require views and models.
+  
+##Controller
+main controller responsible for loading required views and models and collections
+file: js/src/controller/MediaController.js
+
+### Views
+
+All views were encapsuled as RequireJS module and instanciate in Controller functions and Main Application.
+
+Views can be reused in other controllers
+
+### Templates
+
+All templates where created in templates folder using handlebar.js logic and loaded using the pluging hbs
+
+Template are imported in Views.
+
+**hosted wbsite url**
 https://media-gallary-37131.netlify.com
 
