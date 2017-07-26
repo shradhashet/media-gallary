@@ -1,0 +1,50 @@
+<div class="media-story2 layout2 row col-md-4 col-sm-6 col-xs-12">
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        {{#each stories }} {{#if @first }}
+        <div class="story-image col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="http://quintype-01.imgix.net/{{this.hero-image-s3-key}}"></div>
+        <div class="story-content col-md-12 col-sm-12 col-xs-12">
+            <span class="section-name"> {{#each this.sections}}
+            {{upperCase this.name}}{{/each}}</span>
+            <p class="section-content"> {{this.headline }}</p>
+            <p class="section-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+            <div class="author-details">
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+            {{/if}} {{/each}}
+        </div>
+    </div>
+</div>
+</div>
+<div class="layout3 row col-md-4 col-sm-6 col-xs-12">
+    {{#each stories }} {{#if @first}} {{else}} {{#if this.headline }}
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <div class="story-content col-md-12 col-sm-12 col-xs-12">
+            <span class="section-name section-{{@index}}"> 
+                    {{#each this.sections}}
+                     {{upperCase this.name}}
+                    {{/each}}
+          </span>
+            <p class="section-content"> {{this.headline }}</p>
+            <div class="author-details">
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+        </div>
+    </div>
+    {{/if}} {{/if}} {{/each}}
+</div>
+<div class="layout2 subscribe-layout row col-md-4 col-sm-12 col-xs-12">
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <div class="story-image col-md-12 col-sm-6 col-xs-12"><img class="img-responsive" src="/ui/js/images/quintType.png"></div>
+        <div class="story-content newsletter col-md-12 col-sm-6 col-xs-12">
+            <span class="message"><img src="/ui/js/images/message.png"/></span>
+            <p class="subscribe"> Subscribe to Newsletter</p>
+            <p class="form-group">
+                <input class="form-control" type="email" value="" placeholder="Your email" />
+                <br>
+            </p>
+            <p class="subscribe-button">
+                <button class="subscribe-button">Subscribe</button>
+            </p>
+        </div>
+    </div>
+</div>

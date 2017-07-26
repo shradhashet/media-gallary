@@ -1,0 +1,31 @@
+<section id="header-food-health">Food & Health</section>
+<div class="row">
+    <div class="col-md-6 col-sm-6">
+        {{#each otherStory}}
+        <div class="layout6 container col-md-12 col-sm-12 col-xs-12">
+            <div class="story-image col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="http://quintype-01.imgix.net/{{this.hero-image-s3-key}}"></div>
+            <div class="story-content col-md-6 col-sm-6 col-xs-12">
+                <p class="section-content">{{this.headline }}</p>
+                <div class="author-details">
+                    <p class="author-name">{{this.author-name}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="col-md-6 col-sm-6">
+        {{#each lastStory}}
+        <div class="container layout2 col-md-12 col-sm-12 col-xs-12">
+            <div class="story-image col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="http://quintype-01.imgix.net/{{this.hero-image-s3-key}}"></div>
+            <div class="story-content col-md-12 col-sm-12 col-xs-12">
+                <span class="section-name"> {{#each this.sections}}
+           {{upperCase this.name}}{{/each}}</span>
+                <p class="section-content"> {{this.headline }}</p>
+                <p class="section-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                <div class="author-details">
+                    <p class="author-name">{{this.author-name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}

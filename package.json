@@ -1,0 +1,19 @@
+{
+  "name": "media-stories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/ui/js/application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shradhashet/Media-Stories.git"
+  },
+  "author": "shradha shet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shradhashet/Media-Stories/issues"
+  },
+  "homepage": "https://github.com/shradhashet/Media-Stories#readme"
+}

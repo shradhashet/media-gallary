@@ -1,0 +1,48 @@
+<section id="header-politics">Politics</section>
+<div class="layout5 row col-md-4 col-sm-6 col-xs-12">
+    {{#each leftStory }} {{#if @first }}
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <div class="story-image col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="http://quintype-01.imgix.net/{{this.hero-image-s3-key}}" </div>
+            <div class="story-content carousel-caption">
+                <p class="section-content"> {{this.headline }}</p>
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+            {{/if}} {{/each}}
+        </div>
+    </div>
+</div>
+</div>
+{{#each centerStory }} {{#if @first}}
+<div class="layout2 politics  row col-md-4 col-sm-6 col-xs-12">
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <div class="story-image col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="http://quintype-01.imgix.net/{{this.hero-image-s3-key}}"></div>
+        <div class="story-content col-md-12 col-sm-6 col-xs-12">
+            <p class="section-content"> {{this.headline }}</p>
+            <div class="author-details">
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div class="container subsection col-md-12 col-sm-12 col-xs-12">
+        <div class="story-content col-md-12 col-sm-12 col-xs-12">
+            <p class="section-content"> {{this.headline }}</p>
+            <div class="author-details">
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+        </div>
+    </div>
+    {{/if}} {{/each}}
+</div>
+<div class="layout3 politics row col-md-4 col-sm-12 col-xs-12">
+    {{#each rightStory }} {{#if this.headline }}
+    <div class="container col-md-12 col-sm-6 col-xs-12">
+        <div class="story-content col-md-12 col-sm-12 col-xs-12">
+            <p class="section-content"> {{this.headline }}</p>
+            <div class="author-details">
+                <p class="author-name">{{this.author-name}}</p>
+            </div>
+        </div>
+    </div>
+    {{/if}} {{/each}}
+</div>
