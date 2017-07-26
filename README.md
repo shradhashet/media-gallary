@@ -68,4 +68,16 @@ variables, mixins, functions and many other techniques that allow you to make CS
  + package.json
 
      
-        
+ The skeleton implement <a target="/js/main" href-"http://requirejs.org/">RequireJS to load libraries and modules to start a  MarionetteJS App.
+
+Collections and models and their integration with Views in outside the scope this Skeleton, becuase is different in each implemetantion. 
+
+### Errors
+
+If you run this Marionette JS Application without a Web Server ( Loading directly the index.html file), you will get the following error.
+
+XMLHttpRequest cannot load file:///YOURPATH/marionette-skeleton-app/templates/header.tpl. Cross origin requests are only supported for HTTP.
+
+hosted wbsite url
+https://media-gallary-37131.netlify.com
+
