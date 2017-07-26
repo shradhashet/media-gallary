@@ -24,11 +24,11 @@ Handlebar provides built in helpers and allows developers to write custom helper
      
   **Custom helper created in this application:**
  
-    **dateFormatting.js**
+    **dateFormatting.js:**
 	Converts UTC format date into the string, to show the story posted time from now .
 	This helper uses moment js library to convert UTC date into expected format.
 	
-	**uppercase.js**
+	**uppercase.js:**
     Converts all section names into Upper-case.
 
  #### Moment JS
