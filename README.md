@@ -3,6 +3,13 @@
 https://media-gallary-37131.netlify.com
 
 ## Depencendies
+As the API provided to fetch stories does not  provide access to cross origin.
+below  plugin is required to access https://rio.quintype.io/api/v1/stories?limit=20 API 
+
+## error
+ No 'Access-Control-Allow-Origin' header is present on the requested resource.
+ 
+# To resolve the error
 
 Add allow-control-allow-origi plugin to chrome and enable cros origin resource sharing
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
@@ -20,12 +27,7 @@ Cross-origin resource sharing - is a mechanism that allows JavaScript on a web p
 
 CORS allows web applications on one domain to make cross domain AJAX requests to another domain. It's dead simple to enable, only requiring a single response header to be sent by the server. [http://www.html5rocks.com/en/tutorials/file/xhr2/#toc-cors]
 
-Above plugin is required to access https://rio.quintype.io/api/v1/stories?limit=20 API 
 
-As the API doesnot provide acces cross origin
-
-## error
- No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 
 ## Technologies used
