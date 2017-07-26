@@ -105,6 +105,8 @@ All templates where created in templates folder using handlebar.js logic and loa
 
 Template are imported in Views.
 
+**Webiste is designed with responsive layout can be accessed with mobile,tablet,desktop.**
+
 **hosted wbsite url**
 https://media-gallary-37131.netlify.com
 
