@@ -1,5 +1,7 @@
 # Media Gallary
 
+https://media-gallary-37131.netlify.com
+
 ## Technologies used
 
 #### Backbone JS
@@ -121,6 +123,5 @@ Template are imported in Views.
 **Has lazy load Collection which fetches data on scroll**
 **Has lazy load infinity scroll to improve the load performance**
 
-**hosted wbsite url**
-https://media-gallary-37131.netlify.com
+
 
