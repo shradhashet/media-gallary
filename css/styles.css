@@ -155,6 +155,9 @@
   text-align: left;
   color: #5c5c5c;
 }
+#home-page .subscribe-layout .story-image {
+  min-height: 280px;
+}
 #home-page .author-details .author-name {
   font-family: Lato;
   font-size: 18px;
@@ -338,7 +341,6 @@
 .politics.layout2 .subsection {
   margin-top: 20px;
 }
-
 .politics.layout2.sub-section {
   margin-top: 10px !important;
 }
