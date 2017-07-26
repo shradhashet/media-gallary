@@ -2,6 +2,45 @@
 
 https://media-gallary-37131.netlify.com
 
+## Depencendies
+
+Add allow-control-allow-origi plugin to chrome and enable cros origin resource sharing
+https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+
+Allows to you request any site with ajax from any source. Adds to response 'Allow-Control-Allow-Origin: *' header
+Developer tool.
+
+*Summary*
+Add to response header rule - 'Access-Control-Allow-Origin: *'
+
+*Hint*
+Same behavior you can get just using chrome flags [http://www.chromium.org/developers/how-tos/run-chromium-with-flags]
+
+chrome --disable-web-security
+
+or 
+
+--allow-file-access-from-files --allow-file-access --allow-cross-origin-auth-prompt
+
+
+*Description*
+Cross-origin resource sharing - is a mechanism that allows JavaScript on a web page to make XMLHttpRequests to another domain, not the domain the JavaScript originated from.[http://en.wikipedia.org/wiki/Cross-origin_resource_sharing]
+
+
+CORS allows web applications on one domain to make cross domain AJAX requests to another domain. It's dead simple to enable, only requiring a single response header to be sent by the server. [http://www.html5rocks.com/en/tutorials/file/xhr2/#toc-cors]
+
+*Issues*
+If you found any bug or want some new feature - do not hesitate create a pull-request. [https://github.com/vitvad/Access-Control-Allow-Origin] 
+
+
+Above plugin is required to access https://rio.quintype.io/api/v1/stories?limit=20 API 
+
+As the API doesnot provide acces cross origin
+
+## error
+ No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+
 ## Technologies used
 
 #### Backbone JS
