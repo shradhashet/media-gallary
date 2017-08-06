@@ -37,7 +37,8 @@ CORS allows web applications on one domain to make cross domain AJAX requests to
 Backbone.js gives structure to web applications by providing models with key-value binding and custom events, 
 collections with a rich API of enumerable functions, views with declarative event handling, and connects it all
  to your existing API over a RESTful JSON interface.
-Marionette JS
+ 
+#### Marionette JS
 The Backbone Framework, Marionette simplifies your Backbone application code with robust views and architecture solutions
 Marionette provides the structure required for those types of applications, and also provides guidance on how to structure 
 larger JavaScript codebases.Marionette addresses the biggest problem with backbone, which is all the boilerplate in 
